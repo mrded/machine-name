@@ -1,0 +1,11 @@
+{
+  "name": "machine-name",
+  "description": "A simple function that converts a string into machine-friendly-name",
+  "main": "index.js",
+  "authors": [
+    "Dmitry Demenchuk @mrded (dmitry@demenchuk.me)"
+  ],
+  "license": "MIT",
+  "keywords": [],
+  "homepage": "https://github.com/mrded/machine-name"
+}
