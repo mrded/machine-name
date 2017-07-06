@@ -1,6 +1,6 @@
 {
   "name": "machine-name",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A simple function that converts a string into machine-friendly-name",
   "main": "index.js",
   "repository": {
