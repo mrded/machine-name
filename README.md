@@ -1,15 +1,21 @@
 # machine-name
 
-A simple function that converts a string into `machine-friendly-name`
+This library provides simple functions to convert a string into a machine-name
 
 ## Installation
 
 - [Latest release](https://github.com/mrded/machine-name/releases)
-- Bower: `bower install machine-name`
 - NPM: `npm install machine-name`
 
 ## Usage
 ```javascript
-var machineName = require('machine-name');
-machineName('Lorem ipsum dolor sit amet'); // lorem-ipsum-dolor-sit-amet
+import { camel, kebab, pascal, snake } from "machine-name";
+
+kebab("Lorem ipsum dolor sit amet"); // lorem-ipsum-dolor-sit-amet
+
+pascal("Lorem ipsum dolor sit amet"); // LoremIpsumDolorSitAmet
+
+camel("Lorem ipsum dolor sit amet"); // loremIpsumDolorSitAmet
+
+snake("Lorem ipsum dolor sit amet"); // lorem_ipsum_dolor_sit_amet
 ```
